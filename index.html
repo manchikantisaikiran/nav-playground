@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <div class="logo">
+                    Logo
+                </div>
+            </div>
+            <div class="right">
+                <div class="nav-items-container">
+                    <!-- <div class="nav-item">
+                        <div>Configure</div>
+                        <img src="./assets/down-arrow.svg" alt="Down">
+                        <div class="sub-nav">
+                            <div class="sub-item active">
+                                <div>Themes</div>
+                                <img src="./assets/down-arrow.svg" alt="Down">
+                                <div class="sub-nav-options">
+                                    <div class="nav-option">Red</div>
+                                    <div class="nav-option">Blue</div>
+                                    <div class="nav-option">Green</div>
+                                </div>
+                            </div>
+                            <div class="sub-item">
+                                <div>Font Size</div>
+                                <img src="./assets/down-arrow.svg" alt="Down">
+                                <div class="sub-nav-options">
+                                    <div class="nav-option">A<sup>-</sup></div>
+                                    <div class="nav-option">A</div>
+                                    <div class="nav-option">A<sup>+</sup></div>
+                                </div>
+                            </div>
+                            <div class="sub-item">
+                                <div>Family</div>
+                                <img src="./assets/down-arrow.svg" alt="Down">
+                                <div class="sub-nav-options">
+                                    <div class="nav-option">Poppins</div>
+                                    <div class="nav-option">Roboto</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="back-step">
+                        <img src="./assets/down-arrow.svg" alt="">
+                    </div>
+
+                </div>
+                <div class="profile nav-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+                                <path d="M16 9a4 4 0 1 1-8 0a4 4 0 0 1 8 0m-2 0a2 2 0 1 1-4 0a2 2 0 0 1 4 0" />
+                                <path
+                                    d="M12 1C5.925 1 1 5.925 1 12s4.925 11 11 11s11-4.925 11-11S18.075 1 12 1M3 12c0 2.09.713 4.014 1.908 5.542A8.986 8.986 0 0 1 12.065 14a8.984 8.984 0 0 1 7.092 3.458A9 9 0 1 0 3 12m9 9a8.963 8.963 0 0 1-5.672-2.012A6.992 6.992 0 0 1 12.065 16a6.991 6.991 0 0 1 5.689 2.92A8.964 8.964 0 0 1 12 21" />
+                            </g>
+                        </svg>
+                </div>
+
+                <div class="hamburger nav-item" onclick="displayNavItems(this)">
+                    <span class="navbar-toggler-icon"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="./script.js"></script>
+</body>
+
+</html>
